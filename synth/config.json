@@ -1,0 +1,13 @@
+{
+  "paths": {
+    "soundfont_dir": "~/SoundFonts",
+    "library_file": "synth/synth_library.json"
+  },
+  "audio": {
+    "gain": 0.7,
+    "max_gain": 3.0
+  },
+  "midi": {
+    "device_id": 3
+  }
+}

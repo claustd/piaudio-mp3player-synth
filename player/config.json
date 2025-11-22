@@ -1,0 +1,47 @@
+{
+  "hardware": {
+    "display": {
+      "port": 0,
+      "cs": 1,
+      "dc": 9,
+      "backlight": 13,
+      "rst": 27,
+      "width": 240,
+      "height": 240,
+      "rotation": 90,
+      "spi_speed_hz": 80000000
+    },
+    "buttons": {
+      "a": 5,
+      "b": 6,
+      "x": 16,
+      "y": 24,
+      "bounce_time": 0.05
+    }
+  },
+  "visuals": {
+    "colors": {
+      "highlight": [249, 115, 22],
+      "text": [255, 255, 255],
+      "dim_text": [180, 180, 180],
+      "alert": [255, 50, 50]
+    },
+    "font": {
+      "file": "PixelifySans-Regular.ttf",
+      "large_size": 22,
+      "medium_size": 18,
+      "small_size": 14,
+      "mono_size": 18
+    }
+  },
+  "behavior": {
+    "long_press_s": {
+      "volume": 0.5,
+      "menu": 3.0
+    }
+  },
+  "paths": {
+    "music_directory": "~/Music",
+    "library_file": "./library.json"
+  }
+}

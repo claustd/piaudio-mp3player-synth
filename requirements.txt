@@ -1,0 +1,6 @@
+st7789
+pillow
+rpi-lgpio
+gpiozero
+pygame
+pyfluidsynth
