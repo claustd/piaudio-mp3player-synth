@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+.env
+# IDEs
+.idea/
+.vscode/
+# OS
+.DS_Store
+Thumbs.db
+GEMINI.md
