@@ -1,13 +1,13 @@
 # Pirate Audio Player & Synth
 
 **Category:** Raspberry Pi / Audio Projects
-**Tags:** Pirate Audio, FluidSynth, MIDI, ST7789, Python, Systemd, GPIO, Bookworm
+**Tags:** Pirate Audio, FluidSynth, MIDI, ST7789, Python, Systemd, GPIO, Trixie
 
 This project creates a multi-app device for the Raspberry Pi using the Pirate Audio HAT. It features a startup menu to launch one of two applications:
 1.  A **Music Player** for listening to MP3s.
 2.  A **MIDI Synthesizer** that uses SoundFonts (`.sf2`) and an external MIDI keyboard.
 
-This guide covers setup on Raspberry Pi OS (Bookworm) and includes scripts to automate the installation.
+This guide covers setup on Raspberry Pi OS (Trixie) and includes scripts to automate the installation.
 
 ## Project Structure
 
@@ -62,7 +62,7 @@ The installation is now complete. The application menu should launch automatical
 
 ## Part 1: System Setup
 
-Start with a fresh installation of Raspberry Pi OS (Bookworm 64-bit).
+Start with a fresh installation of Raspberry Pi OS (Trixie 64-bit).
 
 ### 1. Configure `/boot/firmware/config.txt`
 Edit the Raspberry Pi's configuration file to enable SPI and configure the audio HAT.
