@@ -124,7 +124,7 @@ Create the service file:
 mkdir -p ~/.config/systemd/user
 nano ~/.config/systemd/user/pirate-player.service
 ```
-Paste the configuration below. **You must change `/home/clau/pirate-synth-player`** to the actual, full path of your project directory.
+Paste the configuration below. **You must change `/home/user/pirate-synth-player`** to the actual, full path of your project directory.
 ```ini
 [Unit]
 Description=Pirate Audio Player & Synth
@@ -136,8 +136,8 @@ Environment="SDL_VIDEODRIVER=dummy"
 Environment="PYTHONUNBUFFERED=1"
 
 # --- IMPORTANT: UPDATE THIS PATH ---
-ExecStart=/home/clau/pirate-synth-player/.venv/bin/python3 /home/clau/pirate-synth-player/Start.py
-WorkingDirectory=/home/clau/pirate-synth-player
+ExecStart=/home/user/pirate-synth-player/.venv/bin/python3 /home/user/pirate-synth-player/Start.py
+WorkingDirectory=/home/user/pirate-synth-player
 
 StandardOutput=journal
 StandardError=journal
